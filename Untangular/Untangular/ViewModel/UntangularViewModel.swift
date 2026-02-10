@@ -15,7 +15,4 @@ protocol UntangularViewModelDelegate: AnyObject {
 class UntangularViewModel {
     weak var delegate: UntangularViewModelDelegate?
     
-    func levelUp(connection: [UIView]) {
-        
-    }
 }
